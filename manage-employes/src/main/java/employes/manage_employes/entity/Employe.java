@@ -13,6 +13,10 @@ public class Employe {
     private String name;
     private String email;
     //constructor
+
+    public Employe() {
+
+    }
     public Employe(String name, String email) {
         this.name = name;
         this.email = email;
@@ -23,16 +27,16 @@ public class Employe {
         return id;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getEmail() {

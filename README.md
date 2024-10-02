@@ -1,1 +1,1 @@
-Spring Boot Management Employee System with PostgreSQL
+Spring Boot Management Employees System with PostgreSQL
